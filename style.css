@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    background-color: rgb(30, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont {
+    height: 25vh;
+    width: 80vw;
+    background-color: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.joke {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-size: 2vw;
+    font-weight: 800;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.455);
+    height: 3vh;
+    aspect-ratio: 5/2;
+    border: none;
+    text-align: center;
+    color: rgb(26, 26, 26);
+    font-size: larger;
+    font-size: 1.9vh;
+    margin-top: 3px;
+    font-weight: 700;
+}
